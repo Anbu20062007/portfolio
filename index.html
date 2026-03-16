@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portgolio<span class="logo-accent"></span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#testimonials" class="nav-link">Soft Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hi, I'm</p>
+                    <h1 class="hero-name">Anbarasu M</h1>
+                    <h2 class="hero-title\">
+                        <span class="title-static">I'm a </span>
+                        <span class="title-dynamic" id="dynamic-title"></span>
+                        <span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        I build exceptional digital experiences with clean code and modern technologies.
+                        Specialized in creating scalable web applications that solve real-world problems.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                        <a href="ANBARASU M.pdf" download class="btn btn-download">Download CV</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="IMG_20260303_185810.jpg.jpeg" alt="Profile" class="profile-img">
+                        <div class="image-backdrop"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image-container">
+                    <div class="about-image-wrapper">
+                        <img src="IMG_20260303_185810.jpg.jpeg" alt="About Me" class="about-img">
+                        <div class="about-image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="about-subtitle">Creating digital solutions that make a difference</h3>
+                    <p class="about-description">
+                        I am an entry-level Full Stack Developer and Web Developer with a strong foundation in HTML, CSS, JavaScript, Python, and MySQL. 
+                        I am passionate about building responsive, user-friendly, and scalable web applications. I enjoy solving problems, learning new 
+                        technologies, and turning ideas into real-world projects.
+                    </p>
+                    <p class="about-description">
+                        I almost completed my bachelor’s degree in Computer Application and have worked on academic and personal projects that 
+                        strengthened my problem-solving and teamwork skills. I am continuously learning and exploring new technologies to improve
+                        my development skills and build efficient web applications.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4 class="stat-number">Entry-level</h4>
+                            <p class="stat-label">Experience</p>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4 class="stat-number">Tamil | English</h4>
+                            <p class="stat-label">Languages</p>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">{ }</div>
+                    <h3 class="skill-name">Frontend Development</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙</div>
+                    <h3 class="skill-name">Backend Development</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">▣</div>
+                    <h3 class="skill-name">Database</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁</div>
+                    <h3 class="skill-name">DevOps & Tools</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">GitHub</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Here are some of my recent works that showcase my skills and expertise</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Screenshot 2025-09-29 162642.png" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://anbu20062007.github.io/career-connect/" class="project-link">Live Demo</a>
+                                <a href="https://github.com/Anbu20062007/career-connect" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Career Connect</h3>
+                        <p class="project-description">
+                            Built “CareerConnect,” a full stack job portal project with front-end and      
+                            back-end integration, implementing user authentication, job listings, and 
+                            database management to provide a seamless job search experience. 
+                        <div class="project-tags">
+                            <span class="project-tag">HTML|CSS</span>
+                            <span class="project-tag">Javascript</span>
+                            <span class="project-tag">mySQL</span>
+                            <span class="project-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwzfHx3ZWIlMjBhcHBsaWNhdGlvbnxlbnwwfHx8fDE3NzI1NDE1MzN8MA&ixlib=rb-4.1.0&q=85" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">
+                            Full-featured e-commerce platform with payment integration, inventory management,
+                            and admin dashboard for seamless online shopping experience.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Vue.js</span>
+                            <span class="project-tag">Express</span>
+                            <span class="project-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHw0fHx3ZWIlMjBhcHBsaWNhdGlvbnxlbnwwfHx8fDE3NzI1NDE1MzN8MA&ixlib=rb-4.1.0&q=85" alt="Project 3">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">
+                            Collaborative task management application with real-time updates, team collaboration,
+                            and productivity tracking features.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1559028006-448665bd7c7f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwyfHx3ZWIlMjBhcHBsaWNhdGlvbnxlbnwwfHx8fDE3NzI1NDE1MzN8MA&ixlib=rb-4.1.0&q=85" alt="Project 4">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Social Media Dashboard</h3>
+                        <p class="project-description">
+                            Unified social media management tool for scheduling posts, analytics,
+                            and engagement tracking across multiple platforms.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Soft Skills</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                       I analyze issues carefully and apply logical thinking to resolve them effectively.
+                    </p>
+                    <div class="testimonial-author">
+                        <h4 class="author-name">Promblem solving</h4>
+                        
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        I am open to learning new tools and frameworks to improve my skills and stay updated with industry trends.
+                    </p>
+                    <div class="testimonial-author">
+                        <h4 class="author-name">Adaptability</h4>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        I value team discussions and contribute actively to achieve project goals.
+                    </p>
+                    <div class="testimonial-author">
+                        <h4 class="author-name">Teamwork</h4>
+                    </div>
+                </div>    
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        I maintain clear communication to ensure smooth project workflow.
+                    </p>
+                    <div class="testimonial-author">
+                        <h4 class="author-name">Communication</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Have a project in mind? Let's work together to create something amazing!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>anbu68798@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 9344698736</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Karimangalam , Dharmapuri , Tamil Nadu 635111</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https:\\github.com\Anbu20062007" class="social-link">GitHub</a>
+                        <a href="https:\\www.linkedin.com\in\anbu68798" class="social-link">LinkedIn</a>
+                        <a href="https:\\www.instagram.com\anbu._.xi?igsh=MWo3ajh0a3FoZTRjYw==" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <form action="https://formspree.io/f/mvzbjjon" method="post" class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <p class="footer-tagline">Thank you for visiting my portfolio!</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#testimonials">Soft skills</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="https:\\github.com\Anbu20062007">GitHub</a></li>
+                            <li><a href="https:\\www.linkedin.com\in\anbu68798">LinkedIn</a></li>
+                            <li><a href="https:\\www.instagram.com\anbu._.xi?igsh=MWo3ajh0a3FoZTRjYw==">Instagram</a></li>
+                            <li><a href="mailto:anbu68798@gmail.com">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>@copyright 2025 Anbu</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
